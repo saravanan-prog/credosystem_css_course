@@ -1,4 +1,9 @@
-# 1. Display Property
+# 🧱 CSS Layout Basics
+
+CSS layout is all about how elements are arranged on a webpage.
+
+
+## 1. Display Property
  The display property controls how an element is shown on the page.
 ####  Common values:
 - block
@@ -7,7 +12,7 @@
 - none
 
 
-# 📦 2. Block Elements (display: block)
+## 📦 2. Block Elements (display: block)
 
 Block elements take up the full width and start on a new line.
 
@@ -25,7 +30,7 @@ Block elements take up the full width and start on a new line.
 <h1> to <h6>
 ```
 
-# 🧵 3. Inline Elements (display: inline)
+## 🧵 3. Inline Elements (display: inline)
 
 Inline elements only take as much width as needed and stay in the same line.
 
@@ -43,7 +48,7 @@ Inline elements only take as much width as needed and stay in the same line.
 <strong>
 ```
 
-# 🔲 4. Inline-Block (display: inline-block)
+## 🔲 4. Inline-Block (display: inline-block)
 
 This is a hybrid of inline and block.
 
@@ -56,7 +61,7 @@ This is a hybrid of inline and block.
 
 Perfect for buttons, cards, navbar items.
 
-# 👁️ 5. Visibility
+## 👁️ 5. Visibility
 
 Controls whether an element is visible or hidden.
 
@@ -72,7 +77,7 @@ visibility: hidden → keeps space
 display: none → removes element completely
 ```
 
-# 🌊 6. Overflow
+## 🌊 6. Overflow
 
 Controls what happens when content overflows its container.
 
