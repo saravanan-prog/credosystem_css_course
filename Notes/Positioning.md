@@ -121,3 +121,14 @@ The position property controls how an element is placed on the page.
   .box2 { z-index: 10; } /* appears above */
 
 ```
+
+### 🚀 Real-World Summary
+
+| Position   | Key Behavior             |
+| ---------- | ------------------------ |
+| `static`   | Default flow             |
+| `relative` | Move from original spot  |
+| `absolute` | Positioned inside parent |
+| `fixed`    | Sticks to screen         |
+| `sticky`   | Scroll → then sticks     |
+| `z-index`  | Controls layers          |
