@@ -1,0 +1,129 @@
+🚀 8️⃣ Flexbox (Modern Layout)
+
+Flexbox is a 1D layout system used to arrange items in a row or column.
+
+📦 1. display: flex
+.container {
+  display: flex;
+}
+✅ What it does:
+
+Turns a container into a flex container
+
+All children become flex items
+
+🔁 2. flex-direction
+
+Controls the direction of items
+
+flex-direction: row;        /* default */
+flex-direction: column;
+flex-direction: row-reverse;
+flex-direction: column-reverse;
+🎯 Axis Concept:
+
+row → horizontal (main axis)
+
+column → vertical (main axis)
+
+↔️ 3. justify-content
+
+Controls alignment along the main axis
+
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+justify-content: flex-start;
+justify-content: flex-end;
+💡 Example:
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+👉 Moves items horizontally (in row)
+
+↕️ 4. align-items
+
+Controls alignment along the cross axis
+
+align-items: center;
+align-items: flex-start;
+align-items: flex-end;
+align-items: stretch;
+align-items: baseline;
+💡 Example:
+.container {
+  display: flex;
+  align-items: center;
+}
+
+👉 Moves items vertically (in row)
+
+🧩 5. gap
+
+Adds spacing between flex items
+
+gap: 10px;
+✅ Why use it:
+
+Cleaner than margins
+
+Works both row & column
+
+🔄 6. flex-wrap
+
+Controls whether items wrap to next line
+
+flex-wrap: nowrap;   /* default */
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+💡 Example:
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+👉 Prevents overflow, useful for responsive layouts
+
+🧠 Axis Trick (VERY IMPORTANT)
+
+| Property        | Works On Axis |
+| --------------- | ------------- |
+| justify-content | Main axis     |
+| align-items     | Cross axis    |
+
+👉 If flex-direction: column, axes swap!
+
+
+🔥 Real Example (Common Interview UI)
+
+```
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+```
+
+👉 Used in:
+
+Navbar
+
+Card layouts
+
+Responsive rows
+
+🚀 Quick Summary
+
+| Property        | Purpose              |
+| --------------- | -------------------- |
+| display: flex   | Enable flexbox       |
+| flex-direction  | Row or column        |
+| justify-content | Main axis alignment  |
+| align-items     | Cross axis alignment |
+| gap             | Space between items  |
+| flex-wrap       | Wrap items           |
