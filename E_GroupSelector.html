@@ -2,7 +2,20 @@
 <html>
 <head>
    
-    <title>universal Selector</title>
+    <title>Group Selector</title>
+    <style>
+        h1,h2,h3,h4 {
+            background-color: purple;
+            color:white;
+        }
+
+        #profile-user > p,h4 {
+            color : white;
+            background-color: green;
+        }
+
+
+</style>
    
     
 </head>
@@ -16,18 +29,15 @@
     <h4>Hello Rajesh</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia id accusamus aliquid repellat mollitia assumenda error, atque placeat, quibusdam, perferendis ipsum ratione deleniti? Facere assumenda distinctio ad, quisquam soluta impedit.</p>
 
+    <div id="profile-user">
+        <p>Hello Saravanan</p>
+        <p>Hello Saravanan</p>
+        <p>Hello Saravanan</p>
+        <h4>Hello Nisha</h4>
+    </div>
+
+
+
 </body>
-<style>
-    /**
-        # - id
-        . - class
-        p - Element
-        * - universal
-    **/
-   
-    * {
-        background-color: rgb(99, 57, 51);
-        color:white;
-    }
-</style>
+
 </html>
