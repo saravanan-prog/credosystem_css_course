@@ -1,0 +1,14 @@
+#para-1 {
+    border-width : 2px;
+    border-style : solid;  /* solid, dotted, dashed */
+    border-color : red;
+}
+
+#para-2 {
+    border : 2px solid green;   /*W S C*/
+}
+
+#para-3 {
+    border : 3px solid tomato;
+    border-radius: 50px;
+}

@@ -1,0 +1,11 @@
+#btn1 {
+    margin:50px;
+    padding: 25px;
+}
+
+/* Give the space left and right side 20px */
+#btn2 {
+    padding: 10px 20px 10px 20px; /* TRBL*/
+    border-radius: 25px;
+
+}
