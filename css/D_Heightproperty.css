@@ -1,12 +1,32 @@
 .container1{
-
-}
-
-.container2{
+    border : 2px solid green;
+    background-color: green;
+    height: 100px;
+    width: 50%;
+    p {
+       
+        background-color: tomato;
+        color:white
+    }
     
 }
 
 
-.container3{
-    
+
+.para1{
+
+    border: 2px solid red;
+    width: 25%;
+    max-width: 50%;
+
+
 }
+
+
+
+
+.para-3{
+    border:2px solid blue;
+    min-width: 300px;
+}
+
