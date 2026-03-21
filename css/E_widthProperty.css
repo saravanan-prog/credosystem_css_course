@@ -1,17 +1,21 @@
 .container1{
     border:2px solid red;
     margin:25px;
-    height: 10px;  /* fixed */
+    width: 10px;  /* fixed */
 }
 
+/*if content increase wide range increase*/
 .container2{
     border:2px solid green;
     margin:25px;
-    min-height: 10px;
+    min-width: 10px; 
 }
 
+ /* max-widht responsive if screen shink */
 .container3{
     border:2px solid blue;
     margin:25px;
-    max-height: 100px;          /**/
+    max-width: 100px;         
 }
+
+
