@@ -1,0 +1,10 @@
+ body {
+
+     background-image: url("./Image/ajith1.jpg");
+     background-repeat: no-repeat;
+     /*repeat-x*/
+     background-size: 100% 150%;
+     /* cover */
+     color: white;
+
+ }

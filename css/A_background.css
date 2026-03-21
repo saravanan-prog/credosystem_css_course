@@ -1,0 +1,9 @@
+ body {
+     background-color: white;
+     color: rgb(223, 163, 163);
+     background-image: url(./Image/collegeLogo.jpg);
+     background-repeat: no-repeat;
+     /*repeat-x*/
+     background-position: 680px 200px;
+
+ }
