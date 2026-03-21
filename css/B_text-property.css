@@ -1,0 +1,23 @@
+.text-center { 
+    border:2px solid green;
+    text-align: center;
+}
+
+.text-left { 
+    border:2px solid green;
+    text-align: left;
+}
+
+.text-right { 
+     border:2px solid green;
+    text-align: right;
+}
+
+.page-link > h4 + ul {
+    li{
+        list-style-type: none;     /* disc, square, rectangle, none */
+    }
+    a{
+        text-decoration: none; 
+    }
+}
