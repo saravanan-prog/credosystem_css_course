@@ -1,23 +1,40 @@
-.text-center { 
-    border:2px solid green;
-    text-align: center;
-}
+.text-alignment {
 
-.text-left { 
-    border:2px solid green;
-    text-align: left;
-}
+    border: 2px solid brown;
+    padding: 30px;
+    margin : 20px  1px;
 
-.text-right { 
-     border:2px solid green;
-    text-align: right;
-}
-
-.page-link > h4 + ul {
-    li{
-        list-style-type: none;     /* disc, square, rectangle, none */
+    .text-center {
+        border: 2px solid green;
+        text-align: center;
     }
-    a{
-        text-decoration: none; 
+
+    .text-left {
+        border: 2px solid green;
+        text-align: left;
     }
+
+    .text-right {
+        border: 2px solid green;
+        text-align: right;
+    }
+}
+
+.page-link {
+    border: 2px solid tomato;
+    margin : 20px  1px;
+    padding: 30px;
+
+    h4 + ul {
+        li {
+            list-style-type: none;
+            /* disc, square, rectangle, none */
+        }
+
+        a {
+            text-decoration: none;
+            /* underline, overline, line-through*/
+        }
+    }
+
 }
