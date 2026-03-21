@@ -1,0 +1,15 @@
+[name] {
+    background-color: blue;
+    color: white;
+}
+
+[type] {
+    color: white;
+    background-color: rgb(70, 133, 70);
+}
+
+
+input[type="text"] {
+    background-color: tomato;
+    color: white
+}

@@ -1,0 +1,24 @@
+/*  Decsendant selector => targets all inside child p elements */
+.container1 p {
+    background-color: red;
+    color:white;
+}
+
+
+/* child Selector */
+.container2 > p {
+    background-color: green;
+    color:white;
+}
+
+/* Adjacent Sibling (+) */
+.container3 > h1 + p {
+    background-color: blue;
+    color:white;
+}
+
+/* General Sibling (~) */
+.container4 > h1 ~ p {
+    background-color: brown;
+    color:white;
+}

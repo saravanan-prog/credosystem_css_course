@@ -1,0 +1,11 @@
+   /**
+        # - id
+        . - class
+        p - Element
+        * - universal
+    **/
+   
+    * {
+        background-color: rgb(99, 57, 51);
+        color:white;
+    }
