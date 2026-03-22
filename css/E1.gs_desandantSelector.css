@@ -1,0 +1,6 @@
+/*  Decsendant selector  */
+
+.container p {
+    background-color: red;
+    color:white;
+}
