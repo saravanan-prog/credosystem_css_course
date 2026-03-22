@@ -1,0 +1,25 @@
+.container1{
+    display : visible;  /* none,visible */
+    background-color: red;
+    color:white;
+    padding:30px
+}
+
+.container2 > p {
+    display : inline-block; /* block,inline,inline-block*/
+     background-color: green;
+    color:white;
+    padding:30px
+}
+
+.container3 > a {
+    display: block;
+    background-color: olive;
+    color:white;
+    padding:30px
+}
+
+.container4 > p {
+    /* display : none */
+    visibility: hidden;
+}
