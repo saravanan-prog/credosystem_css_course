@@ -1,0 +1,15 @@
+div p{
+     // nth child desgign apply
+}
+
+div > p{
+    related child
+}
+
+div > h1 + p {
+    h1 near one paragraph only apply
+}
+
+div> h1~p {
+    // h1 nearby all paragraph.
+}
