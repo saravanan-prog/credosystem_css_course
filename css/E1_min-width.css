@@ -1,0 +1,8 @@
+.container > p{
+    border:2px solid red;
+    margin:25px;
+    min-width: 10px;  /* content size increase automatic grow-up */
+}
+
+
+

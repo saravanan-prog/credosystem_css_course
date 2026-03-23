@@ -1,0 +1,13 @@
+.container{
+    border:2px solid red;
+    margin:25px;
+    width:800px;
+    max-width: 500px;  /* Mobile Responsive*/
+}
+
+
+/**
+  => if sets maximum width an element thats end
+  => if increase normal width property not affect.
+**/
+

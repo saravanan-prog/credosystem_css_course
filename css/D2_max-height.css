@@ -1,0 +1,12 @@
+
+.container > p{
+    border:2px solid red;
+    margin:25px;
+    max-width: 100px; 
+}
+ /* max-width
+    => if the content is less then 100px size will decrease automatically.
+    => if the content is increase 100px above that time overlapping
+ 
+ */
+

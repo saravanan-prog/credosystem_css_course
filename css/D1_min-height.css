@@ -1,0 +1,8 @@
+
+.container > p {
+    border:2px solid rgb(60, 51, 51);
+    margin:25px;
+    min-height: 20px;  /* when content increase height automatically increase */
+}
+
+
