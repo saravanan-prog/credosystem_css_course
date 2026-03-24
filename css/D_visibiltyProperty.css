@@ -1,0 +1,26 @@
+.container1 {
+    visibility: show;
+    background-color: rgb(244, 57, 57);
+    color:white;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 122px rgb(237, 61, 61);
+}
+
+.container2 {
+    visibility: hidden;
+    background-color: rgb(110, 234, 112);
+    color:white;
+    margin-bottom: 25px;
+    padding: 25px;
+    box-shadow: 10px 10px 2px #ffff;
+}
+
+.container3 {
+    visibility: show;
+    background-color: rgb(20, 97, 7);
+    color:white;
+    margin-bottom: 25px;
+    padding: 25px;
+    box-shadow: 10px 10px 2px gray;
+}
