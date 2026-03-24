@@ -1,1 +1,11 @@
-
+.container {
+    background-color: tomato;
+    color:white;
+    padding: 25px;
+    width: 600px;
+    position: relative;
+    top:100px;
+    bottom:0;
+    left : 200px;
+    right:0
+}
