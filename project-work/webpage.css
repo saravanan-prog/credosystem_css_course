@@ -1,0 +1,33 @@
+.container1{
+   display: flex;
+   flex-direction: column; 
+   gap:50px;
+   margin:20px;
+   padding:20px;
+  
+}
+
+.ceo {
+    display:flex;
+    gap:50px;
+    box-shadow: 10px 10px 0 0 gray;
+}
+
+.product-container{
+   display: flex;
+   flex-direction: row; 
+   gap:50px;
+   
+    margin:20px;
+   padding:20px;
+  
+}
+
+.products {
+  
+   /* box-shadow: 10px 10px 0 0 gray; */
+   border:2px solid green;  
+   width:200px;
+   padding:20px;
+   margin:20px;
+}

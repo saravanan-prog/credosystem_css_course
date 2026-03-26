@@ -1,4 +1,23 @@
-.container > img {
-    display: block;
-    border: 2px solid green;
+.title>h3 {
+    text-align: center;
+}
+
+
+.flex-container {
+  
+    border:3px solid gray;
+    display : flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    
+}
+
+.flex-item {
+    background-color: tomato;
+    color:white;
+    width : 100px;
+    height : 50px;
+    text-align: center;
+    margin:20px;
+    padding: 20px;
 }
