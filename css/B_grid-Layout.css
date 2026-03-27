@@ -1,0 +1,25 @@
+.card-image {
+   
+    padding: 10px 0 0 40px;
+    img {
+        height: 100px;
+        width:50%;
+        object-fit: cover;
+    
+    }
+} 
+
+.card-body {
+    text-align: center;
+    margin:25px;
+    padding:25px;
+    
+}
+
+.container{
+    /* border:2px solid green; */
+   
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
