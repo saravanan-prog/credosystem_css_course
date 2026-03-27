@@ -1,0 +1,36 @@
+.item {
+    margin : 20px;
+    padding : 25px;
+    background-color: gray;
+    color:white;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(130, 237, 130);
+    
+}
+
+
+@media (max-width:420px){
+    
+    .container{
+        background-color: rgb(237, 130, 205);
+        flex-direction: column;
+
+    }
+}
+
+
+
+@media (( min-width:421px) and (max-width:720px)){
+    
+    .container{
+        background-color: rgb(162, 130, 237);
+        flex-direction: row;
+
+    }
+}
