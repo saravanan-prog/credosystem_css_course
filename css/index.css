@@ -1,45 +1,8 @@
-.content1{
-    background-color: rgb(208, 96, 96);
-    color:white;
-    padding: 25px;
-    text-align: center;
-    margin:20px;
-    width: 100px;
+#welcome {
+    border: 2px solid green;
     position: relative;
-    bottom:100px;
-    z-index: 4;
-    
-}
-.content2{
-    background-color: rgb(137, 217, 68);
-    color:white;
-    padding: 25px;
-    text-align: center;
-    margin:20px;
-    width: 100px;
-    position: relative;
-    bottom:100px;
-    
-}
-.content3{
-    background-color: rgb(112, 93, 173);
-    color:white;
-    padding: 25px;
-    text-align: center;
-    margin:20px;
-    width: 100px;
-    position: relative;
-    bottom:150px;
-    z-index: -1;
-}
-.content4{
-    background-color: rgb(140, 64, 121);
-    color:white;
-    padding: 25px;
-    text-align: center;
-    margin:20px;
-    width: 100px;
-    position: relative;
-    bottom:200px;
-    z-index: 3;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
 }
