@@ -1,0 +1,34 @@
+h1::after{
+    content: " MCA";
+}
+
+h1::before {
+  content: " 🔥";
+}
+
+.button {
+  position: relative;
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* pseudo element */
+.button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 3px;
+  background: yellow;
+  transition: width 0.3s ease;
+}
+
+/* hover effect */
+.button:hover::after {
+  width: 100%;
+}
