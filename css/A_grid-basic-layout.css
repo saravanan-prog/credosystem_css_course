@@ -6,6 +6,7 @@
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto auto;
+    
 }
 
 
@@ -18,5 +19,6 @@
     text-align:center;
     width: 150px;
     height:200px;
+    box-shadow: 2px 3px 1px rgb(165, 15, 15);
 
 }
