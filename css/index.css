@@ -1,8 +1,20 @@
-#welcome {
-    border: 2px solid green;
-    position: relative;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
+.container {
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    gap : 200px;
+  
+    
+}
+
+
+.container-item {
+    
+    background-color: rgb(35, 184, 35);
+    color:white;
+    height: 100px;
+    width: 100px;
+    text-align:center;
+    padding:25px;
+    margin: 25px;
 }
