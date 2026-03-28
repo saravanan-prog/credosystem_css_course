@@ -6,8 +6,8 @@
     margin:20px;
     width: 100px;
     position: relative;
-    bottom:100px;
-    z-index: 4;
+    z-index: 3;
+    
     
 }
 .content2{
@@ -18,7 +18,9 @@
     margin:20px;
     width: 100px;
     position: relative;
-    bottom:100px;
+    bottom:50px;
+    z-index: 1;
+   
     
 }
 .content3{
@@ -29,8 +31,8 @@
     margin:20px;
     width: 100px;
     position: relative;
-    bottom:150px;
-    z-index: -1;
+    bottom:90px;
+    z-index: 2;
 }
 .content4{
     background-color: rgb(140, 64, 121);
@@ -40,6 +42,7 @@
     margin:20px;
     width: 100px;
     position: relative;
-    bottom:200px;
-    z-index: 3;
+    bottom:125px;
+    
+   
 }
