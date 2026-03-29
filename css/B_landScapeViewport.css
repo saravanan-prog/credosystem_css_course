@@ -1,0 +1,40 @@
+/* Web + Mobile */
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(130, 237, 130);
+    
+}
+
+.item {
+    margin : 20px;
+    padding : 25px;
+    background-color: gray;
+    color:white;
+    text-align: center;
+    width: 200px;
+}
+
+@media (max-width:420px){
+    .container{
+        background-color: rgb(161, 28, 50);
+        flex-direction: column;
+    }
+}
+
+@media (orientation: landscape){
+    .container{
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1604px){
+    .container{
+        background-color: rgb(182, 14, 14);
+        
+    }
+}
