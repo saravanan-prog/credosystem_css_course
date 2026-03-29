@@ -1,0 +1,50 @@
+.container1 {
+    background-color: brown;
+    color:white;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 2s ease-in-out;
+    
+
+}
+
+.container1:hover{
+    transform: rotate(360deg);
+}
+
+
+.container2 {
+    background-color: rgb(42, 138, 15);
+    color:white;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 3s ease;
+    
+
+}
+
+.container2:hover{
+    transform :rotateY(360deg)
+}
+
+
+
+.container3 {
+    background-color: rgb(69, 44, 152);
+    color:white;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 3s ease;
+    
+
+}
+
+.container3:hover{
+    transform :scale(1.5)
+}

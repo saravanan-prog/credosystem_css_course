@@ -1,0 +1,32 @@
+.container {
+    background-color: rgb(217, 69, 69);
+    color:white;
+    margin:20px;
+    padding:25px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    animation-name: animate-container;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animate-container {
+    0% {
+        transform: rotate(360deg);
+        background-color: rgb(53, 72, 194);
+    }
+
+    50% {
+        transform: rotate(360deg) scale(1.5);
+        background-color: greenyellow;
+    }
+
+
+    100% {
+        transform: rotate(360deg) scale(5.5);
+        background-color: greenyellow;
+    }
+}
