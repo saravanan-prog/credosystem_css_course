@@ -1,20 +1,33 @@
-.container {
-    display : grid;
-    grid-template-columns: 1fr 1fr 1fr;
-   
-    gap : 200px;
-  
-    
-}
+/* Transition */
 
-
-.container-item {
-    
-    background-color: rgb(35, 184, 35);
+.box {
+    background-color: tomato;
     color:white;
-    height: 100px;
-    width: 100px;
-    text-align:center;
+    margin:15px;
     padding:25px;
-    margin: 25px;
+    text-align: center;
+    width:100px;
+    height:100px;
+    animation-name: basicAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    
 }
+
+@keyframes basicAnimation {
+    50% {
+        background-color: rgb(85, 174, 85);
+        transform: scale(1.2) rotate(180deg);
+    }
+    75%{
+        background-color: rgb(64, 68, 141);
+        transform: scale(1.2) rotateX(180deg);
+    }
+    100%{
+        background-color: rgb(114, 12, 100);
+        transform: scale(1.2) rotate(360deg);
+    }
+}
+
+
