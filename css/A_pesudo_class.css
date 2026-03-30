@@ -10,10 +10,13 @@ a:hover {
 }
 
 a:focus {
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    background-color: rgb(72, 112, 72);
+    color:white;
 }
 
 .page-link {
     padding:20px;
     margin:20px;
+   
 }
