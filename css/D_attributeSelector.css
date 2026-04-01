@@ -11,5 +11,6 @@
 
 input[type="text"] {
     background-color: tomato;
-    color: white
+    color: white;
+    width:400px;
 }
