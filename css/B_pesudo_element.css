@@ -24,7 +24,7 @@ h1::before {
   bottom: 0;
   width: 0%;
   height: 3px;
-  background: yellow;
+  background: red;
   transition: width 0.3s ease;
 }
 

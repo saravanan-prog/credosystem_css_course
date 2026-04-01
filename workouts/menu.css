@@ -1,0 +1,52 @@
+.menus{
+    /* border:3px solid green; */
+    padding:50px;
+    box-shadow: 5px 10px 20px gray;
+    list-style-type: none;
+    max-width: 500px;
+    position: relative;
+    display:flex;
+    gap:20px;
+    
+}
+
+.course-sub-menu {
+    display: none;
+    /* border: 1px solid gray; */
+    box-shadow: 10px 10px 20px rgb(187, 183, 183);
+    list-style-type: none;
+    padding: 20px;
+    position: absolute;
+    
+    background: white;
+    width: 100px;
+    
+   
+}
+
+li:hover .course-sub-menu{
+    display: block;
+   
+}   
+.course-sub-menu>li{
+    line-height: 50px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.contac-types{
+    display: none;
+    list-style-type: none;
+    line-height: 30px;
+    padding: 20px;
+    box-shadow: 10px 20px 20px  gray;
+    width: 100px;
+}
+
+li:hover .contac-types{
+    display: block;
+}
