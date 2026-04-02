@@ -2,7 +2,8 @@
 body {
     background-image: url("../Image/collegeLogo.jpg");
     background-repeat: no-repeat;
-    background-position: 680px 200px;
+    background-position: center;
+    background-attachment: fixed;
   
  }
  
