@@ -1,0 +1,6 @@
+/*  Adjacent Sibling (+) */
+
+.first-container >  h1 + p  {
+    background-color: green;
+    color:white;
+}
