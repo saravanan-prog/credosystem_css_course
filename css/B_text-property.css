@@ -4,19 +4,26 @@
     margin: 20px 1px;
 }
 
+p{
+    border: 2px solid green;
+    width:500px;
+    height:500px;
+    line-height: 2.4;
+    letter-spacing: 1.5px;
+}
 
 .text-center {
-    border: 2px solid green;
+    
     text-align: center;
 }
 
 .text-left {
-    border: 2px solid green;
+    
     text-align: left;
 }
 
 .text-right {
-    border: 2px solid green;
+   
     text-align: right;
 }
 
@@ -45,5 +52,6 @@
             
         }
     }
+  
 
 }
