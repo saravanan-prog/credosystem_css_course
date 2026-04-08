@@ -1,0 +1,10 @@
+
+.container > p {
+    box-shadow: 15px 15px 12px gray;
+    padding: 25px;
+    width:800px;
+    height: 250px;
+    overflow: scroll;
+
+
+}
