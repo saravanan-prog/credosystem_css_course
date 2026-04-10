@@ -2,16 +2,6 @@
     text-align: center;
 }
 
-
-.flex-container {
-  
-    border:3px solid gray;
-    display : flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    
-}
-
 .flex-item {
     background-color: tomato;
     color:white;
@@ -20,4 +10,19 @@
     text-align: center;
     margin:20px;
     padding: 20px;
+}
+
+
+.flex-container {
+  
+    display : flex;
+    flex-direction: row-reverse; 
+    justify-content: space-around;
+
+    /**
+        speace-between
+        space-around
+     **/
+    
+    
 }

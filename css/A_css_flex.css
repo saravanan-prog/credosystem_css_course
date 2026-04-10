@@ -3,13 +3,6 @@
 }
 
 
-.flex-container {
-  
-    border:3px solid gray;
-    display : flex;
-    
-
-}
 
 .flex-item {
     background-color: tomato;
@@ -19,4 +12,8 @@
     text-align: center;
     margin:20px;
     padding: 20px;
+}
+
+.flex-container {
+    display : flex;
 }
