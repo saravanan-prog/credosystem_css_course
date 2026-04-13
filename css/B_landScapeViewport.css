@@ -21,7 +21,7 @@
 
 @media (max-width:420px){
     .container{
-        background-color: rgb(161, 28, 50);
+        background-color: rgb(150, 44, 56);
         flex-direction: column;
     }
 }
