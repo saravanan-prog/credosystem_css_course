@@ -1,24 +1,25 @@
-.container{
-    /* background-color: blue; */
-    margin : 10px;
-    padding :20px;
-    display:grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: auto auto;
-    
-}
-
 
 
 .product {
-    background-color: gray;
+    background-color: tomato;
     color:white;
-    margin:15px;
+    margin:25px;
     padding:20px;
     text-align:center;
     width: 150px;
-    height:200px;
-    box-shadow: 2px 3px 1px rgb(165, 15, 15);
+    height:175px;
+    box-shadow: 2px 3px 1px gray;
 
 }
+
+
+.container{
+ 
+    display:grid;
+    grid-template-columns:repeat(3,1fr)
+    
+    
+   
+    
+}
+
