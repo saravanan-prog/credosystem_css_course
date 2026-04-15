@@ -1,0 +1,27 @@
+.container{
+    background-color: green;
+    color :white;
+    padding: 35px 0 25px 0;
+    text-align: center;
+    height: 50px;
+    width:100px;
+    /* animation-name:identifier;
+    animation-duration:5s;
+    animation-timing-function:ease-in;
+    animation-iteration-count:infinite;
+   */
+
+   animation : identifier 5s ease infinite;
+}
+ 
+@keyframes identifier {
+    0% {
+        transform: rotate(45deg);
+    }
+    50% {
+        transform:rotate(360deg);
+    }
+    100% {
+        transform :scale(1.5)
+    }
+}
