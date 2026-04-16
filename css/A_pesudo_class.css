@@ -1,22 +1,17 @@
-/* pesudo - Selector */
-
-a {
+a:link {
     text-decoration: none;
+    border:2px solid blue;
+    margin-top: 100px;
+    padding: 15px;
+    position: relative;
+    top : 100px;
 }
 
-a:hover {
-    background-color: pink;
-    color:white;
+a:visited {
+    background-color: green;
 }
 
-a:focus {
-    /* border: 2px solid red; */
-    background-color: rgb(72, 112, 72);
-    color:white;
-}
 
-.page-link {
-    padding:20px;
-    margin:20px;
-   
-}
+
+
+

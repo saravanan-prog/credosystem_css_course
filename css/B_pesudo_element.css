@@ -25,7 +25,7 @@ h1::before {
   width: 0%;
   height: 3px;
   background: red;
-  transition: width 0.3s ease;
+  transition: width 0.3s ease-in;
 }
 
 /* hover effect */
