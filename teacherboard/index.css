@@ -1,0 +1,26 @@
+p {
+    color :red;
+}
+
+@media ((min-width:0) and (max-width:420px)){
+
+    p {
+        color:green;
+    }
+
+}
+
+
+@media ((min-width:421px) and (max-width:1000px)){
+
+    p {
+        color:blueviolet;
+    }
+
+}
+
+@media(orientation: landscape){
+    p {
+        color:green
+    }
+}
