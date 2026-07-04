@@ -1,9 +1,8 @@
  body {
     color:white;
-    background-image: url("../Image/ajith1.jpg");
+    background-image: url(../Image/collegeLogo.jpg);
     background-repeat: no-repeat;
-    background-position: top left;
-    background-size : 1600px 780px;
+    background-position:center center;
     background-attachment: fixed;
 
  }
