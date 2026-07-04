@@ -4,3 +4,8 @@
     background-color: red;
     color:white;
 }
+
+.second-container > p{
+    background-color: rgb(19, 70, 131);
+    color:white;
+}
