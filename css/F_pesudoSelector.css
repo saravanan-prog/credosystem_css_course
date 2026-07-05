@@ -5,37 +5,7 @@
     :first-child
     :last-child
     :nth-child
+    ::after
+    ::before
 **/
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: pink;
-    color :white;
-}
-
-a:visited{
-    color:green;
-}
-
-input[type=text]:focus{
-    background-color: yellow;
-    color:white;
-}
-
-.bio-detial > :last-child {
-    color:white;
-    background-color: brown;
-}
-
-h1::before {
-  content: "★ ";
-  color: gold;
-}
-
-h1::after {
-  content: "★ Mca";
-  color: silver;
-}
