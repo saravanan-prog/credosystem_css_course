@@ -1,4 +1,8 @@
+
+
 /**
+Pesudo Classes
+
     :hover
     :visited
     :focus
@@ -7,5 +11,19 @@
     :nth-child
     ::after
     ::before
+
 **/
 
+a {
+    text-decoration: none;
+    color:red;
+}
+
+a:hover{
+    background-color: violet;
+    color:white
+}
+
+a:visited{
+    color : green;
+}

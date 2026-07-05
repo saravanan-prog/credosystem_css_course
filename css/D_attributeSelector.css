@@ -1,5 +1,14 @@
-p[name="user-profile-name"] {
+
+
+[name] {
 
     color : white;
     background-color: tomato;
 }
+
+h2[name=password] {
+
+    color : white;
+    background-color: blueviolet;
+}
+
