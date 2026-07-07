@@ -1,8 +1,9 @@
 .container{
     border:2px solid red;
     margin:25px;
-    width:800px;
-    max-width: 500px;  /* Mobile Responsive*/
+    width:400px;
+    max-width: 500px;  
+   /* max-width -  Mobile Responsive */
 }
 
 
