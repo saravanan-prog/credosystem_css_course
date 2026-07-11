@@ -1,1 +1,13 @@
- 
+ body{
+    color:rgb(49, 44, 44);
+    background-image: url(../asserts/Image/collegeLogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+h1{
+    color:rgb(219, 120, 120)
+}
+h4{
+    color:rgb(84, 145, 198);
+}

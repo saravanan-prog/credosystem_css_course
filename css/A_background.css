@@ -1,0 +1,13 @@
+body{
+    color:white;
+    background-image: url(../asserts/Image/ajith2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 750px; /*W-H*/
+    background-attachment: fixed;
+}
+h1{
+    color:rgb(219, 120, 120)
+}
+h4{
+    color:rgb(84, 145, 198);
+}
