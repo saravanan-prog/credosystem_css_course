@@ -1,9 +1,7 @@
 
-.container >  p{
+.container1 {
     border:2px solid red;
-    margin:25px;
-    height: 100px;  /* fixed */
-    
+    height: 500px;  
 }
 
 

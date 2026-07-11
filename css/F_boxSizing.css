@@ -2,9 +2,9 @@
 .container1{
     border:2px solid green;
     padding:20px;
-    max-width:800px;
+    max-width:800px;    /*844 px  =  p(20+20) + b(2+2)*/
     margin:20px;
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
 }
 
 /* border-box */
