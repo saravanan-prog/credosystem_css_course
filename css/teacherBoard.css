@@ -1,13 +1,19 @@
-.container {
-    margin:15px;
-    border : 2px solid #ff0000;
-    padding: 20px;
-    display :block;
- 
+.container1,.container2 {
+    display:none;
+    /* visibility: hidden; */
+    border:2px solid;
 }
 
-.container > p {
-    display : inline;
-    border: 2px solid blue;
+.container3> p,h1 {
+    display: inline-block;
+    border:2px solid;
+    margin:20px;
+    padding:20px;
 }
-    
+
+.container4> a {
+    border:2px solid;
+    display: block;
+    margin:25px;
+    padding:25px;
+}
