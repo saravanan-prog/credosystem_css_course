@@ -1,14 +1,8 @@
 .container1 {
-    /* background-color: tomato; */
-    color:#251f1f;
-    padding: 25px;
-    /* width: 600px;
-    height: 300px; */
-    font-size: 32px;
+   
     
-
-    position: fixed;
-    top : 100px;
+    position: sticky;
+    top : 50px;
     left:150px;
 }
 
