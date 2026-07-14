@@ -16,11 +16,11 @@
 .flex-container {
   
     display : flex;
-    flex-direction: row-reverse; 
-    justify-content: space-around;
+    flex-direction: row; 
+    justify-content:  space-around;
 
     /**
-        speace-between
+        space-between
         space-around
      **/
     

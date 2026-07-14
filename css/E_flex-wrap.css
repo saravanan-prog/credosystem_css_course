@@ -21,9 +21,8 @@
     border:3px solid gray;
     display : flex;
     flex-direction: row; 
-    justify-content: space-between;
-    /* gap:30px; */
+    /* justify-content: space-around; */
+    gap:30px;
     flex-wrap : wrap;
-    /* flex-wrap:wrap
-     */
+   
 }
