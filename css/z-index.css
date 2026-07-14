@@ -6,7 +6,7 @@
     margin:20px;
     width: 100px;
     position: relative;
-    z-index: 3;
+    z-index: 1;
     
     
 }
@@ -19,7 +19,7 @@
     width: 100px;
     position: relative;
     bottom:50px;
-    z-index: 1;
+    z-index: 5;
    
     
 }
@@ -31,7 +31,7 @@
     margin:20px;
     width: 100px;
     position: relative;
-    bottom:90px;
+    bottom:100px;
     z-index: 2;
 }
 .content4{
@@ -42,7 +42,7 @@
     margin:20px;
     width: 100px;
     position: relative;
-    bottom:125px;
+    bottom:145px;
     
    
 }
