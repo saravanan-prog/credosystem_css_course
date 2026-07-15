@@ -1,0 +1,16 @@
+.container > div{
+    /* border: 2px solid; */
+    background-color: rgb(234, 54, 54);
+    color:white;
+    padding:25px;
+    text-align: center;
+    box-shadow: 10px 10px 20px gray;
+}
+
+.container{
+    display : grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    
+    grid-template-columns: repeat(2,1fr) 3fr 1fr;
+    
+}
