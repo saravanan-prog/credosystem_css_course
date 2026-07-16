@@ -1,26 +1,20 @@
+
 p {
-    color :red;
+    background-color: tomato;
+    color :white;
 }
 
-@media ((min-width:0) and (max-width:420px)){
-
+@media(max-width:431px){
     p {
-        color:green;
+        background-color: green;
+        color:white;
     }
-
 }
 
 
-@media ((min-width:421px) and (max-width:1000px)){
-
+@media((min-width:431px) and ( max-width:850px)){
     p {
-        color:blueviolet;
-    }
-
-}
-
-@media(orientation: landscape){
-    p {
-        color:green
+        background-color: blue;
+        color:white;
     }
 }
