@@ -5,9 +5,9 @@
     height:100px;
     padding:20px;
     text-align:center;
+    transition-property: all;
     transition-duration: 15s;
-    transition-property: width; 
-    transition-timing-function:ease-in;
+    transition-timing-function:ease;
 
     /* transition : width 3s ease-in; */
 }

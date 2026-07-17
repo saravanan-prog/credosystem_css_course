@@ -1,27 +1,46 @@
-.container{
-    background-color: green;
-    color :white;
-    padding: 35px 0 25px 0;
+/* .container > .item {
+    box-shadow: 10px 10px 2px gray;
+    background-color: tomato;
+    color:white;
+    height: 100px;
+    width: 150px;
     text-align: center;
-    height: 50px;
-    width:100px;
-    /* animation-name:identifier;
-    animation-duration:5s;
-    animation-timing-function:ease-in;
-    animation-iteration-count:infinite;
-   */
-
-   animation : identifier 5s ease infinite;
+    padding-top: 50px;
+    transition: all 10s ease;
 }
- 
-@keyframes identifier {
-    0% {
-        transform: rotate(45deg);
+
+.item:hover {
+
+    transform: scale(0.5) rotate(360deg) translateX(500px);
+} */
+
+
+.container > .item {
+    box-shadow: 10px 10px 2px gray;
+    background-color: tomato;
+    color:white;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    padding-top: 50px;
+    animation: basicanimation 15s ease;
+   
+}
+
+@keyframes basicanimation {
+    0%{
+        background-color: blueviolet;
     }
-    50% {
-        transform:rotate(360deg);
+
+    25% {
+        transform: rotate(360deg);
+    }
+    
+    50%{
+        transform : translateY(600px);
     }
     100% {
-        transform :scale(1.5)
+        transform: scale(1.5);
     }
+    
 }
