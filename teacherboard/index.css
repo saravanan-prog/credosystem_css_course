@@ -4,17 +4,33 @@ p {
     color :white;
 }
 
-@media(max-width:431px){
-    p {
-        background-color: green;
+.container{
+    display: flex;
+    gap:15px;
+
+    div{
+        background-color: blue;
         color:white;
+        text-align: center;
+        padding-top:100px;
+        width:100px;
+        height:100px;
+        
     }
 }
 
-
-@media((min-width:431px) and ( max-width:850px)){
-    p {
-        background-color: blue;
+@media(max-width:431px){
+    p{
+        background-color: green;
         color:white;
+        font-size:12px;
+        width:110px;
     }
+    .container{
+        flex-direction: column;
+        padding-top:10px !important;
+        width: 50px;
+        height: 10px;
+    }
+
 }
