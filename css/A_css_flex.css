@@ -1,7 +1,11 @@
-.title>h3 {
+.title h3 {
     text-align: center;
 }
 
+
+.flex-container {
+    display : flex;
+}
 
 
 .flex-item {
@@ -14,6 +18,3 @@
     padding: 20px;
 }
 
-.flex-container {
-    display : flex;
-}
