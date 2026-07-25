@@ -1,4 +1,4 @@
-/* .container > .item {
+ .container > .item {
     box-shadow: 10px 10px 2px gray;
     background-color: tomato;
     color:white;
@@ -6,41 +6,26 @@
     width: 150px;
     text-align: center;
     padding-top: 50px;
-    transition: all 10s ease;
-}
-
-.item:hover {
-
-    transform: scale(0.5) rotate(360deg) translateX(500px);
-} */
-
-
-.container > .item {
-    box-shadow: 10px 10px 2px gray;
-    background-color: tomato;
-    color:white;
-    height: 100px;
-    width: 150px;
-    text-align: center;
-    padding-top: 50px;
-    animation: basicanimation 15s ease;
+    transition: all 5s ease-in;
+    animation: basicAnimation 2s ease infinite;
    
 }
 
-@keyframes basicanimation {
-    0%{
-        background-color: blueviolet;
-    }
+@keyframes basicAnimation{
 
-    25% {
-        transform: rotate(360deg);
-    }
-    
-    50%{
-        transform : translateY(600px);
-    }
-    100% {
-        transform: scale(1.5);
-    }
-    
+   20%{
+      transform: translate(100px, 50px);
+   }
+   50%{
+      transform: scale(1.8);
+   }
+   100%{
+      transform: rotate(45deg);
+   }
 }
+
+.item:hover{
+   background-color: blue;
+}
+
+
