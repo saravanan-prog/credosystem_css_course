@@ -1,29 +1,19 @@
-
-
-/**
-Pesudo Classes
-
-    :hover
-    :visited
-    :focus
-    :first-child
-    :last-child
-    :nth-child
-    ::after
-    ::before
-
-**/
-
-a {
-    text-decoration: none;
-    color:red;
-}
-
-a:hover{
+.button1:hover {
     background-color: violet;
-    color:white
+    color:white;
 }
 
-a:visited{
-    color : green;
+.button2:active {
+    background-color: green;
+    color:white;
+}
+
+.button2:focus {
+  background-color: blue;
+  color: white;
+}
+
+input:focus{
+    background-color: red;
+    color :white;
 }
