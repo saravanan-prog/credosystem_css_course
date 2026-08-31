@@ -1,12 +1,12 @@
    /**
         # - id
         . - class
-        p - Element
+        <p,h1,h2> - Element
         * - universal
     **/
    
     * {
-        background-color: rgb(228, 87, 65);
+        background-color: rgb(83, 98, 196);
         color:white;
-        margin : 35px;
+        margin:25px;
     }

@@ -6,7 +6,7 @@
     background-color: tomato;
 }
 
-h2[name=password] {
+h2[name] {
 
     color : white;
     background-color: blueviolet;
