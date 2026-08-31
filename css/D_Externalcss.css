@@ -1,3 +1,8 @@
+h5 {
+  color:white;
+  background-color:rgb(84, 32, 80);
+}
+
 h1 {
   background-color: tomato;
   color: white;
@@ -11,11 +16,11 @@ h3 {
   color: white;
 }
 p {
-  background-color: olive;
+  background-color: rgb(22, 67, 144);
   color: white;
   font-size: 32px;
 }
 h4 {
-  background-color: brown;
+  background-color: rgb(172, 80, 80);
   color: white;
 }
