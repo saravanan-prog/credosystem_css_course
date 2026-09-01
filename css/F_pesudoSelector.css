@@ -8,12 +8,21 @@
     color:white;
 }
 
-.button2:focus {
-  background-color: blue;
-  color: white;
-}
-
 input:focus{
     background-color: red;
     color :white;
+}
+
+input[type=checkbox]:checked {
+    width: 20px;
+    height: 20px;
+    accent-color: rgb(108, 40, 104);
+}
+
+.candidatename::before{
+    content:"D."
+}
+
+.candidatename::after{
+    content:" MCA.,"
 }

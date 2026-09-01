@@ -1,6 +1,6 @@
-/*  Adjacent Sibling (+) */
+/*  Adjacent Sibling (+) = nearby element only*/
 
-.first-container >  h1 + p  {
+  h1 + p  {
     background-color: green;
     color:white;
 }

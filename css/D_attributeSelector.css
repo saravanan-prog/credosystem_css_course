@@ -12,3 +12,6 @@ h2[name] {
     background-color: blueviolet;
 }
 
+input[type]{
+    background-color: pink;
+}

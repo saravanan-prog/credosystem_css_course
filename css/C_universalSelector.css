@@ -10,3 +10,8 @@
         color:white;
         margin:25px;
     }
+
+    #content1{
+        font-size: 32px;
+        background-color: tomato;
+    }

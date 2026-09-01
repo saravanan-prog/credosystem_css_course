@@ -1,23 +1,19 @@
-.txt-clr{
+.txt-clr-white{
     color:white;
 }
-
-.txt-bg-clr-gr{
+.txt-clr-red{
+    color:red;
+}
+.txt-bgclr-tomato{
+    background-color: tomato;
+}
+.txt-bgclr-green{
     background-color: green;
 }
-
-.txt-bg-clr-rd{
-    background-color: red;
-}
-
-.txt-bg-clr-olv{
-    background-color: olive;
-}
-
-.txt-fn-sz-32{
+.fns-32{
     font-size:32px;
 }
 
-.txt-fn-sz-24{
-    font-size:24px;
+.fns-64{
+    font: size 64px;
 }
