@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Pesudo Element selector</title>
+    <style>
+        .count-name {
+            counter-reset:section;
+        }
+
+        p::before{
+            counter-increment:section ;
+            content : counter(section) " " 
+        }
+    </style>
+</head>
+<body>
+    <div class="count-name">
+        <p>vijay</p>
+        <p>Mala</p>
+        <p>Bala</p>
+        <p>kesavan</p>
+   </div>
+</body>
+</html>
