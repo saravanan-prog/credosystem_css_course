@@ -1,46 +1,10 @@
-#para-1{
-
-    border-width : 3px;
-    border-style : solid;
-    border-color:red;
-}
-/* W S C*/
-#para-2{
-    border : 3px solid green; 
+#para-1 {
+    /* WSC */
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
 }
 
-#para-3{
-    border : 3px solid blue;
-    border-radius: 100px;
+#para-2 {
+    border : 2px solid blue;
 }
-
-button {
-    border-radius: 100px;
-}
-
-img {
-    border-radius: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-/* #para-2 {
-    border : 2px solid green;  
-}
-
-#para-3 {
-    border : 3px solid tomato;
-    border-radius: 50px;
-} */

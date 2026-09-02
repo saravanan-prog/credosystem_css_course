@@ -4,20 +4,12 @@
     margin-top : 100px;
     margin-right : 100px;
     margin-bottom : 100px;
-    margin-left : 25%;
+    margin-left :100px;
 }
+
 /*Give margin space all top right left bottom 100px*/
 #para-2 {
     border : 2px solid green;
-    margin : 100px;  /* T R B L*/
-}
-/*Please give margin right and left 100px */
-#para-3 {
-    border : 3px solid blue;
-    margin : 0 100px 0 100px; /* T R B L*/
+    margin : 200px 100px 200px 0;  /* T R B L*/
 }
 
-#para-4{
-    border : 3px solid orange;
-    margin : 300px 100px; /* T R B L*/
-}
