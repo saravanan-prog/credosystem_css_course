@@ -4,16 +4,7 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Pesudo Element selector</title>
-    <style>
-        .count-name {
-            counter-reset:section;
-        }
-
-        p::before{
-            counter-increment:section ;
-            content : counter(section) " " 
-        }
-    </style>
+    <link rel="stylesheet" href="./css/pesudo-element-selector.css"/>
 </head>
 <body>
     <div class="count-name">
@@ -22,5 +13,28 @@
         <p>Bala</p>
         <p>kesavan</p>
    </div>
+
+   <ul class="main-list">
+        <li>
+            apple
+            <ul class="sub-list">
+                <li>kashmir</li>
+                <li>simla</li>
+                <li>ooty apple</li>
+            </ul>
+
+        </li>
+        <li>Orange
+
+
+             <ul class="sub-list">
+                <li>kamala</li>
+                <li>sathukudi</li>
+                <li>Lemon type orange</li>
+            </ul>
+        </li>
+        <li>grapes</li>
+   </ul>
+   
 </body>
 </html>

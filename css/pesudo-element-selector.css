@@ -1,0 +1,32 @@
+ .count-name {
+     counter-reset: section;
+ }
+
+ p::before {
+     counter-increment: section;
+     content: counter(section) " "
+ }
+
+
+/*second Example*/
+.main-list {
+    list-style-type: none;
+    counter-reset: section;
+}
+
+
+.main-list > li::before {
+    counter-increment: section;
+    content: counter(section) " ";
+    counter-reset: subsection;
+    
+}
+
+.sub-list {
+    list-style-type: none;
+}
+
+.sub-list > li::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+}

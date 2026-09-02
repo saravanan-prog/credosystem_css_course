@@ -26,7 +26,10 @@ input[type=checkbox]:checked {
 
 #welcome > p:first-child {
     color:red;
+    font-size:64px;
 }
+
+
 
 #welcome > p:last-child {
     color:blue;
