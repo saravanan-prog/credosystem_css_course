@@ -1,59 +1,40 @@
-.container1 {
-    border: 2px solid brown;
-    padding: 30px;
-    margin: 20px 1px;
-
-    p {
-        border: 2px solid green;
-        width:500px;
-        height:500px;
-        line-height: 2.4;
-        letter-spacing: 1.5px;
-    }
-
-    .text-center {
-        
-        text-align: center;
-    }
-
-    .text-left {
-        
-        text-align: left;
-    }
-
-    .text-right {
-    
-        text-align: right;
-    }
-
+.text-center {
+    text-align : center;
+}
+.text-left {
+    text-align : left;
 }
 
+.text-right {
+    text-align : right;
+}
+.cont-quali{
+    text-transform: uppercase;
+    text-decoration: overline;
+    letter-spacing: 2px;
+}
+.job{
+    text-decoration: underline;
+}
 
+.biography > p {
+    line-height: 2.5;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    
+}
 
+.page-link > a {
+    text-decoration: none;
+    border:2px solid;
+    padding:15px;
+}
 
-
-
-
-
-.container2{
-    border: 2px solid tomato;
-    margin: 20px 1px;
-    padding: 30px;
-
-    h4 + ul {
-        li {
-            list-style-type: none;
-            /* disc, square, rectangle, none */
-        }
-
-        a {
-            text-decoration: none;
-            /* underline, overline, line-through*/
-            line-height: 30px;
-            letter-spacing: 2px;
-            
-        }
-    }
-  
-
+a:hover{
+    background-color: gray;
+    color:white;
+}
+a:focus{
+    background-color:rgb(231, 44, 44);
+    color:white;
 }

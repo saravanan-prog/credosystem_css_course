@@ -1,0 +1,30 @@
+
+
+ul > li {
+    list-style-type : none;
+    border:2px solid;
+    border-radius: 53px;
+    padding:25px;
+    width:100px;
+    
+    
+}
+
+a {
+    text-decoration:none;
+    letter-spacing:1.5px;
+   
+}
+
+#education {
+    height:700px;
+    border:2px solid red;
+}
+#exprience {
+    height:700px;
+    border:2px solid blue;
+}
+#skills{
+    height:700px;
+    border:2px solid gray;
+}
