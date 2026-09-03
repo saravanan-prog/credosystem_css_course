@@ -10,6 +10,7 @@
 /*Give margin space all top right left bottom 100px*/
 #para-2 {
     border : 2px solid green;
-    margin : 200px 100px 200px 0;  /* T R B L*/
+    margin : 200px 100px 50px 100px ;  
+    /*T R B L */
 }
 

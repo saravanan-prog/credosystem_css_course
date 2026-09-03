@@ -2,8 +2,9 @@
 .container {
     border:2px solid red;
     margin:25px;
-    height:250px;
+    height:2500px;
     max-height: 50px; 
+    overflow:scroll;     /*hidden or scroll*/
 }
  /* max-width
     => if the content is less then 100px size will decrease automatically.

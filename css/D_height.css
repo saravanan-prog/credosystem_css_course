@@ -1,7 +1,7 @@
 
 .container1 {
     border:2px solid red;
-    height: 500px;  
+    max-width: 500px;  
 }
 
 .container2 {
