@@ -1,14 +1,24 @@
 .text-center {
+    border:2px solid;
     text-align : center;
 }
 .text-left {
+    border:2px solid;
     text-align : left;
 }
 
 .text-right {
+    border:2px solid;
     text-align : right;
 }
-.cont-quali{
+
+
+
+
+
+
+
+.qualification{
     text-transform: uppercase;
     text-decoration: overline;
     letter-spacing: 2px;
@@ -16,6 +26,9 @@
 .job{
     text-decoration: underline;
 }
+
+
+
 
 .biography > p {
     line-height: 2.5;
