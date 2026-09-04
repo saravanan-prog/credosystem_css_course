@@ -74,7 +74,7 @@ The `position property` controls `how an element is placed` on the `page`.
 ```
 #### ✅ Features:
 
--` Acts like relative` until scroll `reaches a point`
+- ` Acts like relative` until scroll `reaches a point`
 - Then behaves `like fixed`
 - Requires top, left, etc.
 
@@ -83,26 +83,7 @@ The `position property` controls `how an element is placed` on the `page`.
 - Sticky headers
 - Section titles
 
-### 🧠 6. Z-Index (Layering)
 
-```
-  z-index: 10;
-```
-#### ✅ Features:
-
-- Controls stack order (which element is on top)
-- Works only on positioned elements (relative, absolute, fixed, sticky)
-
-🔥 Rule:
-
-- Higher value → comes on top
-- Lower value → goes behind
-
-```
-  .box1 { z-index: 1; }
-  .box2 { z-index: 10; } /* appears above */
-
-```
 
 ### 🚀 Real-World Summary
 
