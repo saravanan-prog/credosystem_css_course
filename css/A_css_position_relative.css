@@ -1,4 +1,4 @@
- .container {
+ .container1 {
     background-color: tomato;
     color:white;
     padding: 25px;
@@ -7,5 +7,16 @@
     position: relative;
     top:150px;
     left:100px;
+
+} 
+
+ .container2 {
+    background-color: rgb(124, 226, 124);
+    color:white;
+    padding: 25px;
+    width: 600px;
+
+    position: relative;
+    inset:0;
 
 } 
