@@ -1,22 +1,22 @@
-# 🚀 8️⃣ Flexbox (Modern Layout)
+## Flexbox (Modern Layout)
 
-Flexbox is a 1D layout system used to arrange items in a row or column.
-
-### 📦 1. display: flex
+- Flexbox is a `1D layout system` 
+- it is used to arrange items in a `row` or `column`.
 
 ```
 .container {
   display: flex;
 }
 ```
-### ✅ What it does:
 
 - Turns a container into a flex container
 - All children become flex items
 
-### 🔁 2. flex-direction
+### flex-direction
 
-Controls the direction of items
+- Controls the `direction of items`
+- `row`   → horizontal (main axis)
+- `column` → vertical (main axis)
 
 ```
   flex-direction: row;        /* default */
@@ -25,14 +25,10 @@ Controls the direction of items
   flex-direction: column-reverse;
 ```
 
-🎯 Axis Concept:
-
-- row → horizontal (main axis)
-- column → vertical (main axis)
 
 ### ↔️ 3. justify-content
 
-Controls alignment along the main axis
+Controls alignment along the `main axis`
 
 ```
 justify-content: center;
@@ -56,7 +52,7 @@ justify-content: flex-end;
 
 ### ↕️ 4. align-items
 
-Controls alignment along the cross axis
+Controls alignment along the `cross axis`
 
 ```
 align-items: center;
@@ -78,7 +74,7 @@ align-items: baseline;
 
 ### 🧩 5. gap
 
-Adds spacing between flex items
+Adds `spacing between flex` items
 
 ```
 gap: 10px;
@@ -90,7 +86,7 @@ gap: 10px;
 
 ### 🔄 6. flex-wrap
 
-Controls whether items wrap to next line
+`Controls` whether items wrap to `next line`
 
 ```
 flex-wrap: nowrap;   /* default */
