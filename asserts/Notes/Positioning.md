@@ -1,22 +1,19 @@
-# 🎯 7️⃣ Positioning in CSS
+## Positioning in CSS
 
-The position property controls how an element is placed on the page.
+The `position property` controls `how an element is placed` on the `page`.
 
 ### 📌 1. Static (default)
+- `Default` for `all elements`
+- Not affected by `top`, `left`, `right`, `bottom`
+- Follows normal `document flow`
 
 ```
   position: static;
 ```
 
-#### ✅ Features:
-
-- Default for all elements
-- Not affected by top, left, right, bottom
-- Follows normal document flow
-
-👉 You usually don’t need to set this manually
-
 ### 📌 2. Relative
+- `Moves` relative to its `original position`
+- Space is still preserved
 
 ```
   position: relative;
@@ -24,27 +21,12 @@ The position property controls how an element is placed on the page.
   left: 20px;
 ```
 
-✅ Features:
-
-- Moves relative to its original position
-- Space is still preserved
-- Used as a reference for absolute children
-
-👉 Very important in layouts!
-
 ### 📌 3. Absolute
 
-```
-  position: absolute;
-  top: 0;
-  right: 0;
-```
 
-#### ✅ Features:
-
-- Positioned relative to the nearest positioned parent
+- `Positioned` relative to the `nearest positioned parent`
 - If no parent → relative to `<body>`
-- Removed from normal flow (no space reserved)
+- `Removed` from `normal flow` (no space reserved)
 
 ##### 💡 Example:
 
@@ -74,8 +56,8 @@ The position property controls how an element is placed on the page.
 
 #### ✅ Features:
 
-- Fixed relative to the viewport (screen)
-- Stays in the same place even when scrolling
+- `Fixed relative` to the `viewport (screen)`
+- `Stays in the same place` even` when scrolling`
 - Removed from normal flow
 
 👉 Common use:
@@ -92,8 +74,8 @@ The position property controls how an element is placed on the page.
 ```
 #### ✅ Features:
 
-- Acts like relative until scroll reaches a point
-- Then behaves like fixed
+-` Acts like relative` until scroll `reaches a point`
+- Then behaves `like fixed`
 - Requires top, left, etc.
 
 👉 Common use:
