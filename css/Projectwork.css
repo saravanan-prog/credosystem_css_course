@@ -1,0 +1,74 @@
+main {
+    display: flex;
+}
+
+aside{
+    background-color: rgb(155, 81, 81);
+    height: 700px;
+    width:200px;
+    position: sticky;
+    top:0;
+}
+section{
+  
+    flex: 1;
+}
+
+
+
+ul{
+    
+}
+
+
+ul > li {
+    display:inline-block;
+    list-style-type : none;
+    /* border:2px solid; */
+    padding:25px;
+    width:100px;
+    margin:30px;
+    
+}
+
+a {
+    text-decoration:none;
+     color:white;
+    /* letter-spacing:1.5px; */
+   
+}
+a:hover{
+    background-color: pink;
+}
+a:focus{
+    background-color: yellow;
+}
+
+#education {
+    height:700px;
+    /* border:2px solid red; */
+}
+#exprience {
+    height:700px;
+    /* border:2px solid blue; */
+}
+#skills{
+    height:700px;
+    /* border:2px solid gray; */
+}
+#certificate{
+    height:700px;
+    /* border:2px solid gray; */
+}
+
+table{
+    /* border:2px solid; */
+    padding:75px;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 10px 10px 2px gray;
+}
+h3{
+    text-shadow: 1.5px 1.5px 1px gray;
+}
