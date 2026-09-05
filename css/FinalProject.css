@@ -1,15 +1,13 @@
-*{
+* {
     margin:0;
-}
+    padding:0;
+ }
 header{
+    background-color: rgb(155, 81, 81);
     position: sticky;
     top:0;
 }
-ul{
-    background-color: rgb(155, 81, 81);
-   
 
-}
 
 ul > li {
     display:inline-block;
@@ -35,27 +33,28 @@ a:focus{
 }
 
 #education {
-    height:700px;
     /* border:2px solid red; */
     margin-top:200px;
-   
+   box-shadow: 10px 10px 2px gray;
 }
 #exprience {
     height:700px;
     /* border:2px solid blue; */
+    box-shadow: 10px 10px 2px gray;
    
     
 }
 #skills{
     height:700px;
     /* border:2px solid gray; */
-    
+    box-shadow: 10px 10px 2px gray;
    
    
 }
 #certificate{
     height:700px;
     /* border:2px solid gray; */
+    box-shadow: 10px 10px 2px gray;
    
     
 }
@@ -66,7 +65,7 @@ table{
     height: 500px;
     width: 100%;
     text-align: center;
-    box-shadow: 10px 10px 2px gray;
+    
 }
 h3{
     text-shadow: 1.5px 1.5px 1px gray;
