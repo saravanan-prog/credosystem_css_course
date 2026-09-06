@@ -6,9 +6,10 @@
     **/
    
     * {
-        background-color: rgb(83, 98, 196);
+        background-color: rgb(140, 150, 212);
         color:white;
-        margin:25px;
+        margin:30px;
+        padding:0;
     }
 
     #content1{

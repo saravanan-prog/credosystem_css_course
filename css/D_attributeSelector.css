@@ -1,17 +1,7 @@
 
 
-[name] {
-
-    color : white;
-    background-color: tomato;
-}
-
-h2[name] {
-
-    color : white;
-    background-color: blueviolet;
-}
-
 input[type]{
     background-color: pink;
+    width:300px;
+    height: 50px;
 }

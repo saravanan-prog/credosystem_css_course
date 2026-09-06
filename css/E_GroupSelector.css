@@ -1,4 +1,4 @@
-p,h1,h2 {
+p,h3 {
     background-color: tomato;
     color:white;
 }
@@ -6,12 +6,13 @@ p,h1,h2 {
 
 
 
+
 /*  Types of Group selector
 
     - desandent selector 
-   - child selector
+    - child selector
   
-   - Adjacent selector
-   - general
+    - Adjacent selector
+    - general
 
 */
