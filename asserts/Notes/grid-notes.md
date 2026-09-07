@@ -1,6 +1,8 @@
 # CSS Grid 
 
-- CSS Grid is a powerful layout system used to create rows and columns easily—perfect for building responsive layouts 🔥
+- CSS Grid is a `powerful layout system` 
+- it is used to create rows and columns 
+- easily—perfect for building `responsive layouts` 
 
 ### 🎯 What is CSS Grid?
 
