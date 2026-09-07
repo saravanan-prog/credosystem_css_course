@@ -3,29 +3,40 @@
     padding:0;
     list-style-type: none;
     text-decoration: none;
+    color:white;
 }
 header {
     display: flex;
-    height: 55px;
-    padding: 55px 0 0 75px;
     background-color: rgb(237, 114, 114);
-    color:rgb(230, 221, 221);
+    height: 55px;
+    padding: 45px 0 0 75px;   
 }
 
 .logo {
-    width: 50%;
+    width: 40%;
 }
 
 .site-title {
-    width: 500px;
+    width: 35%;
 }
 
 .site-links {
     width: 25%;
 }
 
+.site-links > ul {
+    display:flex;
+    flex-direction:row;
+    gap:28px;
+} 
+li:hover{
+    background-color: gray;
+    height: 10px;
+    padding:10px;
+}
+
+
 .main-wrap{
-    border:2px solid red;
     display:flex;
     height:500px;
 }
@@ -41,4 +52,16 @@ aside{
 }
 .profile-info{
     padding-top:20px;
+}
+
+footer{
+    background-color: rgb(18, 41, 41);
+    text-align: center;
+}
+.soical-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    padding-top:30px;
 }
