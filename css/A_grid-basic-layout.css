@@ -6,19 +6,23 @@
     margin:25px;
     padding:20px;
     text-align:center;
-    width: 150px;
-    height:175px;
+    width: 200px;
+    height:155px;
     box-shadow: 2px 3px 1px gray;
 
 }
 
 
 .container{
- 
+
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(5,1fr) ;
     grid-template-rows: repeat(2,1fr);
-  
+ 
+    /* display:grid;
+    grid-template-columns: repeat(3,1fr);
+   
+   */
     
 
     /* grid-template-columns: 1fr 1fr 1fr;

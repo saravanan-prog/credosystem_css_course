@@ -1,4 +1,24 @@
-.card-image {
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.card{
+  /* border:2px solid green; */
+  box-shadow: 10px 10px 0.5px gray;
+  margin-top:20px;
+  width:200px;
+}
+.card-header > img {
+  padding: 10px 0 0 30px;
+}
+.card-body{
+  padding: 10px 0 0 50px;
+}
+
+
+
+
+/* .card-image {
    
     padding: 10px 0 0 40px;
     img {
@@ -57,4 +77,4 @@ button:hover {
   color: #28a745;
   font-size: 16px;
   margin-bottom: 15px;
-}
+} */
