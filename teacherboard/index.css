@@ -1,31 +1,29 @@
-p {
-    border:2px solid red;
-   
+*{
+    margin:0;
+    padding:0;
 }
 
-
-
-@media ( (max-width:378px)){
-    
-    
+.container {
+    color:white;
+    background-color: tomato;
+    height: 100px;
+}
+/* mobile */
+@media (max-width:441px){
+    .container{
+        background-color: rgb(105, 105, 220);
+        max-width:150px;
+        
+    }
     p {
-        border:5px solid green;
-        max-width: 100px;
+        text-wrap: wrap;
     }
 }
-/* Samsung glaxy*/
-@media ((min-width:379px) and (max-width:431px)){
-    
-    p {
-        border:5px solid blue;
-        max-width: 100px;
-    }
-}
+/* Ipad */
+@media ((min-width:762px) and (max-width:1024px)){
 
-@media ((min-width:431px) and (max-width:441px)){
-    
-    p {
-        border:5px solid yellow;
-        max-width: 100px;
+    .container{
+        background-color: rgb(220, 105, 186);
     }
+
 }
