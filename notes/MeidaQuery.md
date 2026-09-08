@@ -1,6 +1,6 @@
 # Media queries
 
-- Media queries — these are used to make your website responsive for different screen sizes 📱💻
+`Media queries` — these are used to make your website `responsive` for `different screen sizes` 📱💻
 
 ### ✅ What are Media Queries?
 

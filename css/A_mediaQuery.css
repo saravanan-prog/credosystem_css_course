@@ -14,7 +14,7 @@
     
 }
 
-@media (max-width:420px){
+@media (max-width:440px){
     
     .container{
         background-color: rgb(237, 130, 205);
@@ -25,7 +25,7 @@
 }
 
 
-@media ((min-width:421px) and (max-width:1030px)){
+@media ((min-width:441px) and (max-width:1030px)){
     
     .container{
         background-color: rgb(46, 28, 163);
