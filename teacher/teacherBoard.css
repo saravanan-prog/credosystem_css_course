@@ -1,18 +1,13 @@
  .container  {
-    box-shadow: 10px 10px 2px gray;
     background-color: tomato;
     color:white;
     height: 100px;
     width: 150px;
     text-align: center;
     padding-top: 50px;
-    animation : my-animation 3s ease infinite
+    transition: all 0.5s ease;
 }
 
-@keyframes my-animation {
-   0% {
-      transform: rotate(360deg);
-   }
-   
-   
+.container:active{
+    transform: translateX(200px)  translateY(200px) scale(1.5) rotate(360deg);
 }

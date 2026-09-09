@@ -6,23 +6,23 @@
     height: 100px;
     width: 100px;
     text-align: center;
-    animation: animate-container 2s ease infinite;
+    animation: basicAnimation 15s ease infinite;
 }
 
-@keyframes animate-container {
-    0% {
+@keyframes basicAnimation {
+    0%{
+        background-color: rgb(204, 57, 204);
+    }
+    10%{
         transform: rotate(360deg);
-        background-color: rgb(53, 72, 194);
     }
-
-    50% {
-        transform: rotate(360deg) scale(1.5);
-        background-color: greenyellow;
+    25%{
+        transform : translateY(200px)
     }
-
-
+    50%{
+        transform : translateX(200px)
+    }
     100% {
-        transform: rotate(360deg) scale(5.5);
-        background-color: rgb(187, 34, 180);
+        transform : scale(1.5) skew(10deg)
     }
 }
