@@ -5,9 +5,9 @@
 Used to create smooth changes between two states (like hover).
 
 ### ✅ Syntax
-
-- transition: property duration timing-function delay;
-
+```
+ transition : property duration-delay timing-function ;
+```
 🔹 Example
 
 ```
@@ -85,8 +85,9 @@ OR
 - Applies the keyframes to an element.
 
 ✅ Syntax
-- animation: name duration timing-function delay iteration-count direction;
-
+```
+ animation: [key-frame-name] duration timing-function  iteration-count;
+```
 🔹 Example
 ```
 .box {

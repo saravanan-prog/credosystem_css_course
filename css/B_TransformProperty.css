@@ -28,7 +28,7 @@
 }
 
 .container2:hover{
-    transform :rotateY(360deg)
+    transform :rotateX(360deg)
 }
 
 
@@ -40,11 +40,12 @@
     width: 100px;
     padding: 20px;
     text-align: center;
-    transition: transform 3s ease;
+    transition: all 3s ease;
     
 
 }
 
 .container3:hover{
-    transform :scale(1.5)
+    transform :scale(1.1);
+    box-shadow:10px 10px 0.5px gray;
 }

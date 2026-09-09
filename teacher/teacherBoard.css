@@ -1,4 +1,4 @@
- .container > .item {
+ .container  {
     box-shadow: 10px 10px 2px gray;
     background-color: tomato;
     color:white;
@@ -6,26 +6,13 @@
     width: 150px;
     text-align: center;
     padding-top: 50px;
-    transition: all 5s ease-in;
-    animation: basicAnimation 2s ease infinite;
+    animation : my-animation 3s ease infinite
+}
+
+@keyframes my-animation {
+   0% {
+      transform: rotate(360deg);
+   }
+   
    
 }
-
-@keyframes basicAnimation{
-
-   20%{
-      transform: translate(100px, 50px);
-   }
-   50%{
-      transform: scale(1.8);
-   }
-   100%{
-      transform: rotate(45deg);
-   }
-}
-
-.item:hover{
-   background-color: blue;
-}
-
-

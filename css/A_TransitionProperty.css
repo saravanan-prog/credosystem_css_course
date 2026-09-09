@@ -5,14 +5,17 @@
     height:100px;
     padding:20px;
     text-align:center;
-    transition : all 3s ease;
+    position: relative;
+    top:100px;
+    left:200px;
+
+    transition : all 10s ease;
 }
+
 /* Pesudo-class-selector*/  
-
-.container:hover {
-    background-color: blueviolet;
-    box-shadow: 5px 5px 1px gray;
-    width: 120px;
-    height: 120px;
-
+.container:hover{
+    background-color: rgb(78, 6, 78);
+    width:200px;
+    transform: scale(1.1, 1.2);
+    box-shadow:10px 10px 0.5px gray;
 }
