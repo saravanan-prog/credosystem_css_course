@@ -1,6 +1,12 @@
 .container{
-    background-color: orange;
+    background-color: rgb(108, 127, 238);
     color:white;
-    width: max(90%, 500px)
+    width: calc(1500px - 400px)
 
 }
+
+/* @media(max-width:420px){
+    .container{
+        width: min(1500px, 300px)
+    }
+} */
