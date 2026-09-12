@@ -1,10 +1,14 @@
 * {
-    color:white;
+   color :white;
 }
 
+
 body {
-    background-image: url("../Image/ajith1.jpg");
-    background-repeat: no-repeat;
-    background-size : 1600px  800px;
-    background-attachment: fixed;
+   background-image: url("../asserts/Image/bacground-theme-image.jpg");
+   background-repeat: no-repeat;
+   background-size: 1600px 700px;
+   background-attachment: fixed;
+
 }
+ 
+ 
