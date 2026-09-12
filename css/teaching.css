@@ -1,4 +1,18 @@
-.container1 {
-   border : 2px solid;   /*WSC*/
-   margin : 200px;    /*TRBL*/
+
+.para-1 {
+   border-width: 3px;
+   border-style:solid;
+   border-color: red;
+   /* Margin */
+   margin-top : 200px;
+   margin-right :200px;
+   margin-bottom :100px;
+   margin-left :100px;
+}
+
+.para-2 {
+   border : 3px solid green;  /* wsc */
+   border-radius: 30px;
+   margin : 300px 200px 200px  100px;  /*TRBL*/
+   padding: 30px 20px 25px 55px  /*TRBL*/
 }
