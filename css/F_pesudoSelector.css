@@ -1,3 +1,7 @@
+
+/* Mouse hover */
+
+
 .button1:hover {
     background-color: violet;
     color:white;
@@ -12,21 +16,19 @@
 
 input:focus{
     background-color: red;
-    color :white;
+    color :white; 
 }
+
 
 input[type=checkbox]:checked {
     width: 20px;
     height: 20px;
     accent-color: rgb(108, 40, 104);
-}
-
-
-
+} 
 
 #welcome > p:first-child {
     color:red;
-    font-size:64px;
+
 }
 
 
@@ -40,15 +42,4 @@ input[type=checkbox]:checked {
     color:pink;
 }
 
-/* Pesudo Element selectors */
-
-.candidatename::before{
-    content:"d.";
-    text-transform: uppercase;
-    color:red;
-}
-
-.candidatename::after{
-    content:" MCA.,"
-}
 
