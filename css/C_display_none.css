@@ -17,7 +17,7 @@
 }
 
 .container3 {
-
+    display:block;
     background-color: rgb(93, 43, 84);
     color:white;
     margin-bottom: 25px;

@@ -1,18 +1,22 @@
 .container1 {
+    border:2px solid green;
     margin-bottom:50px;
 }
 
 .container1 > p {
     display: inline;
     border:2px solid red;
-    margin:20px;
-    padding: 20px;
+   
+}
+
+.container2 {
+    border:2px solid green;
+    margin-bottom:50px;
 }
 
 
 .container2 > p {
     display: inline-block;
-    border:2px solid green;
-    margin:20px;
-    padding: 20px;
+    border:2px solid blue;
+    
 }

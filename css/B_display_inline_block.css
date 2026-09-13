@@ -1,6 +1,13 @@
-.page-link > a {
+.container1 > a {
+    border:2px solid green;
+    text-decoration: none;
+    letter-spacing: 1px; 
+}
+
+
+.container2 > a {
+    border:2px solid green;
     display:block;
     text-decoration: none;
-    line-height: 25px;
     letter-spacing: 1px; 
 }
