@@ -1,8 +1,8 @@
 
 .container  {
     border:2px solid green;
-    margin:25px;
-    min-height: 20px;  /* when the content increase height automatically increase */
+    min-height: 50px;  /* when the content increase height automatically increase */
+    
 }
 
 
