@@ -14,10 +14,6 @@
 
 
 
-
-
-
-
 .qualification{
     text-transform: uppercase;
     text-decoration: overline;
@@ -31,9 +27,9 @@
 
 
 .biography > p {
-    line-height: 2.5;
+    line-height: 1.5;
     text-transform:uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     
 }
 

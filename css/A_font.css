@@ -1,6 +1,6 @@
 .container1 {
     font-family:'Courier New', Courier, monospace;
     font-size: 16px;
-    font-weight:400; /*bold */
-    font-style:italic
+    font-weight:700; /*bold */
+    font-style:italic  /* italic */
 }
