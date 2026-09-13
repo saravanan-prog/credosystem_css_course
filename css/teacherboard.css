@@ -1,14 +1,11 @@
-.parent{
-    border:2px solid;
-    height: 200px;
-    width:200px;
-    position: absolute;
-    top:50px;
-    left:20px;
+.container1 {
+    border:2px solid red;
+    position: relative;
+    top:200px;
+    left:100px;
+    right:200px;
 }
 
-.child{
-    position: absolute;
-    top: 100px;
-    left:40px;
+.container2 {
+    border:2px solid green;
 }

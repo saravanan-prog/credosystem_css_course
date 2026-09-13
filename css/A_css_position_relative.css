@@ -4,12 +4,8 @@
     padding: 25px;
     width: 600px;
     position: relative;
-    top:200px;
-    right:0;
-    left:200px;
-    bottom:0;
-    z-index:1
-    
+    top:300px;
+    left:100px
 
 } 
 
@@ -19,6 +15,6 @@
     padding: 25px;
     width: 600px;
     position: relative;
-    top: 20px;
+    
 
 } 
