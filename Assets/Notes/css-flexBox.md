@@ -3,6 +3,8 @@
 - Flexbox is a `1D layout system` 
 - it is used to arrange items in a `row` or `column`.
 
+### flex:
+
 ```
 .container {
   display: flex;
@@ -16,7 +18,7 @@
 
 - Controls the `direction of items`
 - `row`   → horizontal (main axis)
-- `column` → vertical (main axis)
+- `column` → vertical (cross axis)
 
 ```
   flex-direction: row;        /* default */

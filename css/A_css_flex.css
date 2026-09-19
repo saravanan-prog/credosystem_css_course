@@ -1,14 +1,16 @@
-.title h3 {
+.title {
     text-align: center;
 }
 
 
 .flex-container {
     display : flex;
+  
 }
 
 
 .flex-item {
+    box-shadow: 3px 3px 1.5px gray;
     background-color: tomato;
     color:white;
     width : 100px;

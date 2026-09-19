@@ -14,18 +14,19 @@
 
 
 .flex-container {
-  
-    display : flex;
-    flex-direction: column; 
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 
     /**
-        left
-        right
+        flex-start
+        flex-end
         center
-        space-between
-        space-around
+        baseline
+        stretch
      **/
     
     
 }
+
+

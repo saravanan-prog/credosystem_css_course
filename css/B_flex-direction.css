@@ -1,4 +1,4 @@
-.title>h3 {
+.title {
     text-align: center;
 }
 
@@ -10,15 +10,14 @@
     text-align: center;
     margin:20px;
     padding: 20px;
-    box-shadow: 10px 10px 12px gray;
+    box-shadow: 3px 3px 1.5px gray;
 }
 
 
 .flex-container {
-  
-    /* border:3px solid gray; */
+
     display : flex;
-    flex-direction:  row;
+    flex-direction:  column;
      
     /*
        row

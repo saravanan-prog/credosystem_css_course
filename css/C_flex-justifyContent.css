@@ -20,8 +20,8 @@
     justify-content:  space-around;
 
     /**
-        left
-        right
+        flex-start
+        flex-end
         center
         space-between
         space-around
