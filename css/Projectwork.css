@@ -1,74 +1,57 @@
-main {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header setup*/
+header {
     display: flex;
+    /* border : 2px solid; */
+    background-color: rgb(232, 133, 133);
+    height:70px;
+    padding-top:50px;
 }
-
-aside{
-    background-color: rgb(155, 81, 81);
-    height: 700px;
-    width:200px;
-    position: sticky;
-    top:0;
+.logo{
+    width: 40%;
 }
-section{
-  
-    flex: 1;
+.title{
+    width: 40%;
 }
-
-
-
-ul{
-    
+.menu {
+    width: 20%;
 }
-
-
-ul > li {
-    display:inline-block;
-    list-style-type : none;
-    /* border:2px solid; */
-    padding:25px;
-    width:100px;
-    margin:30px;
-    
-}
-
-a {
-    text-decoration:none;
-     color:white;
-    /* letter-spacing:1.5px; */
+/*Main wrap*/
+.main-wrap{
+    display: flex;
+    /* border : 2px solid; */
    
+    height:500px;
 }
-a:hover{
-    background-color: pink;
+aside{
+    width: 15%;
+    background-color: rgb(213, 154, 144);
+    box-shadow: 3px 3px 25 gray;
 }
-a:focus{
-    background-color: yellow;
+main{
+    width: 85%;
 }
-
-#education {
-    height:700px;
-    /* border:2px solid red; */
+/*footer*/
+.people-connect {
+    display:flex
 }
-#exprience {
-    height:700px;
-    /* border:2px solid blue; */
-}
-#skills{
-    height:700px;
-    /* border:2px solid gray; */
-}
-#certificate{
-    height:700px;
-    /* border:2px solid gray; */
+.dummy{
+    width:40%
 }
 
-table{
-    /* border:2px solid; */
-    padding:75px;
-    height: 500px;
-    width: 100%;
+.social-links{
+    height: 50px;
+    display: flex;
+    gap:50px;
+    /* position: relative;
+    left:600px; */
+}
+
+.copyrights{
+    height: 50px;
     text-align: center;
-    box-shadow: 10px 10px 2px gray;
-}
-h3{
-    text-shadow: 1.5px 1.5px 1px gray;
 }
